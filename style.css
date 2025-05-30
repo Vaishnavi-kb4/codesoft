@@ -1,0 +1,67 @@
+*{
+    margin: 5;
+    padding: 0;
+    box-sizing:border-box;
+    background-color:azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+    font-size:90px;
+}
+body{
+    background-color: #2a2c2f;
+}
+.container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.design{
+    background-color: orange;
+    color: azure;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.calculator{
+    background-color:gray;
+    border-radius: 40px;
+    padding: 20px;
+    display: grid;
+    box-shadow: inset 2px 2px 2px 9px grey,
+    2px 2px 9px grey;
+    grid-template-columns: repeat(4,65px);
+    
+
+}
+input{
+    grid-column: span 4;
+    height: 50px;
+    width: 250px;
+    border: none;
+    
+    text-align: right;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1 );
+}
+button{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    //box-shadow:  inset -2px -2px 9px lightcyan,
+    2px 2px 9px lightcyan;
+    border: none;
+    border-radius: 50%;
+    background-color:#d0d3d4;
+}
+.equal{
+width: 115px;
+border-radius: 30px;
+background: orange;
+color: azure;
+}
